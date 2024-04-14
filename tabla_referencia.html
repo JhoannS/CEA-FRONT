@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Tabla de referencia</title>
+  <link rel="stylesheet" href="css/tabla_referencia.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="img/Logos/BLANCO.png" alt="" class="icon">
+      <div class="logo_name">CEA</div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class='bx bx-search'></i>
+        <input type="search" placeholder="Buscar...">
+        <span class="tooltip">Buscar</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Inicio</span>
+        </a>
+        <span class="tooltip">Inicio</span>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">Asignaciones</span>
+        </a>
+        <span class="tooltip">Asignaciones</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="links_name">Historial</span>
+        </a>
+        <span class="tooltip">Historial</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Ajustes</span>
+        </a>
+        <span class="tooltip">Ajustes</span>
+      </li>
+      <li class="profile">
+        <div class="profile-details">
+          <img src="profile.jpg" alt="profileImg">
+          <div class="name_job">
+            <div class="name">Jhoann Zamudio</div>
+            <div class="job">Inspector</div>
+          </div>
+        </div>
+        <a href="">
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <section class="home-section">
+    <header>
+      <p>Formulario VF tool book 1</p>
+      <div class="hora">
+        <span>19 de abril de 2024, </span>
+        <span>12:30 pm</span>
+      </div>
+    </header>
+
+
+    <main>
+      <h3>Tabla D1 | Matriz de intensisdad de la vigilancia</h3>
+      <P class="informacion">Guia indicativa del inval de riesgo</P>
+    </main>
+
+    <section class="resumen">
+      <div class="contadores">
+        <h4>Puntaje total: <span>12</span></h4>
+        <h4>IdE: <span>4</span></h4>
+      </div>
+
+      <table>
+        <div class="grid-container">
+          <div class="grid-item extra-tall">Indicador de exposición</div>
+          <div class="grid-item tall">Muy alto</div>
+          <div class="grid-item">E</div>
+          <div class="grid-item tall" id="caja_roja">5E</div>
+          <div class="grid-item tall" id="caja_roja">4E</div>
+          <div class="grid-item tall" id="caja_roja">3E</div>
+          <div class="grid-item tall" id="caja_amarilla">2E</div>
+          <div class="grid-item tall" id="caja_verde">1E</div>
+         
+        
+          <div class="grid-item tall">Alto</div>
+          <div class="grid-item">D</div>
+          <div class="grid-item tall" id="caja_roja">5D</div>
+          <div class="grid-item tall" id="caja_roja">4D</div>
+          <div class="grid-item tall" id="caja_amarilla">3D</div>
+          <div class="grid-item tall" id="caja_amarilla">2D</div>
+          <div class="grid-item tall" id="caja_verde">1D</div>
+        
+        
+          <div class="grid-item tall">Moderado</div>
+          <div class="grid-item">C</div>
+          <div class="grid-item tall" id="caja_roja">5C</div>
+          <div class="grid-item tall" id="caja_amarilla">4C</div>
+          <div class="grid-item tall" id="caja_amarilla">3C</div>
+          <div class="grid-item tall" id="caja_amarilla">2C</div>
+          <div class="grid-item tall" id="caja_verde">1C</div>
+          
+        
+          <div class="grid-item tall">Bajo</div>
+          <div class="grid-item">B</div>
+          <div class="grid-item tall" id="caja_amarilla">5B</div>
+          <div class="grid-item tall" id="caja_amarilla">4B</div>
+          <div class="grid-item tall" id="caja_amarilla">3B</div>
+          <div class="grid-item tall" id="caja_verde">2B</div>
+          <div class="grid-item tall" id="caja_verde">1B</div>
+          
+        
+          <div class="grid-item tall">Muy bajo</div>
+          <div class="grid-item">A</div>
+          <div class="grid-item tall" id="caja_amarilla">5A</div>
+          <div class="grid-item tall" id="caja_amarilla">4A</div>
+          <div class="grid-item tall" id="caja_verde">3A</div>
+          <div class="grid-item tall" id="caja_verde">2A</div>
+          <div class="grid-item tall" id="caja_verde">1A</div>  
+        
+          <div class="grid-item" id="caja_oculta">0</div>
+          <div class="grid-item tall" id="caja_oculta">0</div>
+          <div class="grid-item" id="caja_oculta">0</div>
+        
+          <div class="grid-item tall">5</div>
+          <div class="grid-item tall">4</div>
+          <div class="grid-item tall">3</div>
+          <div class="grid-item tall">2</div>
+          <div class="grid-item tall">1</div>
+        
+          <div class="grid-item" id="caja_oculta">0</div>
+          <div class="grid-item tall" id="caja_oculta">0</div>
+          <div class="grid-item" id="caja_oculta">0</div>
+        
+          <div class="grid-item tall">Muy alto</div>
+          <div class="grid-item tall">Alto</div>
+          <div class="grid-item tall">Moderado</div>
+          <div class="grid-item tall">Bajo</div>
+          <div class="grid-item tall">Muy bajo</div>
+        
+          <div class="grid-item" id="caja_oculta">0</div>
+          <div class="grid-item tall" id="caja_oculta">0</div>
+          <div class="grid-item" id="caja_oculta">0</div>
+        
+          <div class="grid-item extra-long">Indicador de riesgo</div>
+        
+        
+          
+        </div>
+      </table>
+      <BR></BR>
+      <div class="botones-form">
+        <button type="submit"><i class='bx bx-left-arrow-circle' id="log_out"></i> Atras</button>
+        <button type="submit">Siguiente <i class='bx bx-right-arrow-circle' id="log_out"></i></button>
+      </div>
+    </section>
+    <BR></BR>
+ <footer>
+        <p>Hecho por SolutionCode grupo de desarroladores de Sotfware | Aeronautica Civil de Colombia | Deimos v1.0</p>
+      </footer>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      menuBtnChange();//calling the function(optional)
+    });
+
+    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+      sidebar.classList.toggle("open");
+      menuBtnChange(); //calling the function(optional)
+    });
+
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+      if (sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+      }
+    }
+  </script>
+</body>
+
+</html>
