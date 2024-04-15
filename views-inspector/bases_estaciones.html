@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Tabla de referencia</title>
+  <link rel="stylesheet" href="css/bases_estaciones.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="img/Logos/BLANCO.png" alt="" class="icon">
+      <div class="logo_name">CEA</div>
+      <i class='bx bx-menu' id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class='bx bx-search'></i>
+        <input type="search" placeholder="Buscar...">
+        <span class="tooltip">Buscar</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Inicio</span>
+        </a>
+        <span class="tooltip">Inicio</span>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">Asignaciones</span>
+        </a>
+        <span class="tooltip">Asignaciones</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="links_name">Historial</span>
+        </a>
+        <span class="tooltip">Historial</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog'></i>
+          <span class="links_name">Ajustes</span>
+        </a>
+        <span class="tooltip">Ajustes</span>
+      </li>
+      <li class="profile">
+        <div class="profile-details">
+          <img src="profile.jpg" alt="profileImg">
+          <div class="name_job">
+            <div class="name">Jhoann Zamudio</div>
+            <div class="job">Inspector</div>
+          </div>
+        </div>
+        <a href="">
+          <i class='bx bx-log-out' id="log_out"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+  <section class="home-section">
+    <header>
+      <p>Formulario VF tool book 1</p>
+      <div class="hora">
+        <span>19 de abril de 2024, </span>
+        <span>12:30 pm</span>
+      </div>
+    </header>
+
+
+    <main>
+      <h3>Tabla D1 | Matriz de intensisdad de la vigilancia</h3>
+      <P class="informacion">Bases o estaciones</P>
+    </main>
+
+    <section class="resumen">
+      <table>
+        <div class="grid-container">        
+          <div class="grid-item" id="">Valores de la matriz <i class='bx bx-right-arrow-circle' id="log_out"></i></div>
+          <div class="grid-item" id="caja_verde">1A, 1B, 1C, 1D, 1E, 2A, 2B, 3A</div>
+          <div class="grid-item" id="caja_amarilla">2C, 2D, 2E, 3B, 3C, 3D, 4A, 4B, 4C, 5A, 5B</div>
+          <div class="grid-item" id="caja_roja">3E, 4D, 4E, 5C, 5D, 5E</div>
+
+          <div class="grid-item" id="">Intensidad de vigilancia <i class='bx bx-right-arrow-circle' id="log_out"></i></div>
+          <div class="grid-item" id="">Reducida</div>
+          <div class="grid-item" id="">Normal</div>
+          <div class="grid-item" id="">Riguroso</div>
+
+          <div class="grid-item" id="">
+            <div class="custom-select">
+                <select>
+                  <option>Cantidad</option>
+                  <option>1</option>
+                  <option>2 a 8</option>
+                  <option>9 a 15</option>
+                  <option>16 a 25</option>
+                  <option>26 a 50</option>
+                  <option>51 a 90</option>
+                  <option>91 a 150</option>
+                  <option>151 a 280</option>
+                </select>
+                <div class="select-arrow"></div>
+              </div>
+            </div>
+          <div class="grid-item" id=""><span>1</span></div>
+          <div class="grid-item" id=""><span>1</span></div>
+          <div class="grid-item" id=""><span>1</span></div>
+        
+          <div class="grid-item" id="">Estaciones <i class='bx bx-down-arrow-circle' id="log_out"></i></div>
+          <div class="grid-item extra-long-3"  id="">Muestra</div>
+            
+          <div class="grid-item" id="">1</div>
+          <div class="grid-item" id="">1</div>
+          <div class="grid-item" id="">1</div>
+          <div class="grid-item" id="">1</div>
+
+          <div class="grid-item" id="">2 a 8</div>
+          <div class="grid-item" id="">2</div>
+          <div class="grid-item" id="">2</div>
+          <div class="grid-item" id="">3</div>
+
+          <div class="grid-item" id="">9 a 15</div>
+          <div class="grid-item" id="">2</div>
+          <div class="grid-item" id="">3</div>
+          <div class="grid-item" id="">5</div>
+
+          <div class="grid-item" id="">16 a 25</div>
+          <div class="grid-item" id="">3</div>
+          <div class="grid-item" id="">5</div>
+          <div class="grid-item" id="">8</div>
+
+          <div class="grid-item" id="">26 a 50</div>
+          <div class="grid-item" id="">5</div>
+          <div class="grid-item" id="">8</div>
+          <div class="grid-item" id="">13</div>
+
+          <div class="grid-item" id="">51 a 90</div>
+          <div class="grid-item" id="">5</div>
+          <div class="grid-item" id="">13</div>
+          <div class="grid-item" id="">20</div>
+
+          <div class="grid-item" id="">91 a 150</div>
+          <div class="grid-item" id="">8</div>
+          <div class="grid-item" id="">20</div>
+          <div class="grid-item" id="">32</div>
+
+          <div class="grid-item" id="">151 a 280</div>
+          <div class="grid-item" id="">13</div>
+          <div class="grid-item" id="">32</div>
+          <div class="grid-item" id="">50</div>
+
+          <div class="grid-item" id="">281 a 500</div>
+          <div class="grid-item" id="">20</div>
+          <div class="grid-item" id="">50</div>
+          <div class="grid-item" id="">80</div>
+
+          <div class="grid-item" id="">Mas de 501</div>
+          <div class="grid-item" id="">10%</div>
+          <div class="grid-item" id="">20%</div>
+          <div class="grid-item" id="">*20%</div>
+
+          <div class="grid-item extra-long">* Tratar de concentrar la atención en aquellas muestras que se sospeche un manejo inadecuado por parte del Explotador de servicios aéreos.</div>
+          
+        </div>
+        <br>
+      </table>
+      <BR></BR>
+      <div class="botones-form">
+        <button type="submit"><i class='bx bx-save' id="log_out"></i> Guardar</button>
+        <button type="submit">Siguiente <i class='bx bx-right-arrow-circle' id="log_out"></i></button>
+      </div>
+    </section>
+    <BR></BR>
+ <footer>
+        <p>Hecho por SolutionCode grupo de desarroladores de Sotfware | Aeronautica Civil de Colombia | Deimos v1.0</p>
+      </footer>
+  </section>
+
+  <script>
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
+    let searchBtn = document.querySelector(".bx-search");
+
+    closeBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("open");
+      menuBtnChange();//calling the function(optional)
+    });
+
+    searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
+      sidebar.classList.toggle("open");
+      menuBtnChange(); //calling the function(optional)
+    });
+
+    // following are the code to change sidebar button(optional)
+    function menuBtnChange() {
+      if (sidebar.classList.contains("open")) {
+        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
+      } else {
+        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");//replacing the iocns class
+      }
+    }
+  </script>
+</body>
+
+</html>
